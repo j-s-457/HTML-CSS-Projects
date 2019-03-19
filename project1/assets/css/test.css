@@ -1,0 +1,119 @@
+html, body {
+  background: #DDDDEE;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pictures {
+    background-color: #fff;
+    min-width: 100%;
+    min-height: 200px;
+    display: flex;
+    overflow-x: auto;
+}
+.pic {
+    min-width: 320px;
+    margin: 5px;
+}
+.pictures::-webkit-scrollbar {
+    display: none;
+}
+
+#topBar {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	background: #355DD2;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	padding: 25px;
+	justify-content: flex-end;
+}
+
+.topBar-item{
+	margin-right: 10px;
+	font-size: 25px;
+}
+#AZLogo{
+	position: absolute;
+	left: 4%;
+	top: 20%;
+}
+
+#footer {
+	background: #355DD2;
+	color: white;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	position: fixed;
+}
+
+.bottom-content-item {
+	padding-right: 25px;
+}
+
+#copyright {
+	align-self: flex-end;
+}
+
+.logo {
+	position: relative;
+	left: 15%;
+	padding-right: 5px;
+}
+
+#artist-pic {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#circle {
+	display: inline;
+  	margin: 0 auto;
+  	height: 100%;
+  	width: auto;
+}
+#TextHelper {
+    position: absolute;
+    top: 15%;
+	left: 35%;
+}
+#Textprompt {
+	position: absolute;
+	top: 75%;
+	left: 35%;
+}
+
+.adele {
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    position: fixed;
+    top: 12%;
+    left: 15px;
+}
+
+.lyrics {
+    text-align: center;
+    height: 400px;
+    width: 450px;
+}
